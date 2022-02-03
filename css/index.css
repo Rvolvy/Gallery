@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #120044;
+}
+
+header{
+  background-color: #232323;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navigasi{
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+.judul{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 35px;
+  transition: 0.5s;
+}
+
+.judul:hover{
+  color: yellow;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list li{
+  display: flex;
+}
+
+.list li a{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 17px;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+.list li a:hover{
+  color: yellow;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+
+.welcometulisan{
+  color: yellow;
+  font-family: 'Secular One', sans-serif;
+  font-size: 75px;
+  transition: 0.5s;
+}
+
+.welcometulisan:hover{
+  transform: scale(1.07);
+}
+
+.kotak1{
+  background-color: #191422;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.kotak1judul{
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kotak1tulisan{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.kotak2{
+  background-color: #191422;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.kotak2judul{
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kotak2dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.kotak2img{
+  height: 290px;
+  border-radius: 30px;
+}
+
+.kotak2dalam2{
+  margin-left: 30px;
+}
+
+.kotak2tulisan{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.kotak2tambahan{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.kotak2link{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #282036;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.kotak2link:hover{
+  color: yellow;
+  background-color: #0b090f;
+}
+
+.kotak3{
+  background-color: #191422;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.kotak3judul{
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kotak3dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.kotak3img{
+  height: 290px;
+  border-radius: 30px;
+}
+
+.kotak3dalam2{
+  margin-left: 30px;
+}
+
+.kotak3tulisan{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.kotak3tambahan{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.kotak3link{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #282036;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.kotak3link:hover{
+  color: yellow;
+  background-color: #0b090f;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  padding: 30px;
+}
+
+.penutup{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}
